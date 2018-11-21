@@ -96,6 +96,8 @@ github.com/hashicorp/serf v0.0.0-20180530155958-984a73625de3 h1:NUr1hG6WO9sI1x8o
 github.com/hashicorp/serf v0.0.0-20180530155958-984a73625de3/go.mod h1:h/Ru6tmZazX7WO/GDmwdpS975F019L4t5ng5IgwbNrE=
 github.com/hashicorp/vault v0.0.0-20180724215049-b9adaf9c6959 h1:PyVs2CB7Hxgl1kU0tWAVpagLK3N+MC0eeyKmG+L5VPI=
 github.com/hashicorp/vault v0.0.0-20180724215049-b9adaf9c6959/go.mod h1:KfSyffbKxoVyspOdlaGVjIuwLobi07qD1bAbosPMpP0=
+github.com/hashicorp/vault v0.11.5 h1:6G3922BuHAxy3icIgSTJiv6GQCqFgdmXBvn3L9bNrZA=
+github.com/hashicorp/vault v0.11.5/go.mod h1:KfSyffbKxoVyspOdlaGVjIuwLobi07qD1bAbosPMpP0=
 github.com/hashicorp/yamux v0.0.0-20151129044643-df949784da9e h1:R35YxgX/iWqsDjzoNO/7uFf8vjcgBIc02rvaV/Vr15c=
 github.com/hashicorp/yamux v0.0.0-20151129044643-df949784da9e/go.mod h1:+NfK9FKeTrX5uv1uIXGdwYDTeHna2qgaIlx54MXqjAM=
 github.com/hetznercloud/hcloud-go v0.0.0-20181016094819-eaf050e4f370 h1:I1Qmx2XRn+A6wNYJErMKlvC1NQxVlu4D21Dq6F7A1x8=
@@ -197,6 +199,7 @@ github.com/vmware/govmomi v0.0.0-20170707011325-c2105a174311 h1:s5pyxd5S6wRs2WpE
 github.com/vmware/govmomi v0.0.0-20170707011325-c2105a174311/go.mod h1:URlwyTFZX72RmxtxuaFL2Uj3fD1JTvZdx59bHWk6aFU=
 github.com/xanzy/go-cloudstack v2.1.4+incompatible h1:5c72sRFakVv8wH/HsQFg+xr37CmNQU2UbJfaBjW5f0c=
 github.com/xanzy/go-cloudstack v2.1.4+incompatible/go.mod h1:s3eL3z5pNXF5FVybcT+LIVdId8pYn709yv6v5mrkrQE=
+golang.org/x/crypto v0.0.0-20180322175230-88942b9c40a4 h1:AJCW0rhPjFKEAoValWpqnRKxX8YV0Xvqfw+dOexCTPc=
 golang.org/x/crypto v0.0.0-20180322175230-88942b9c40a4/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/net v0.0.0-20180719180050-a680a1efc54d h1:i6RB+Qz1ug7TvJdY4zieRMpnLAtkHSHTOvApNXfLT4A=
 golang.org/x/net v0.0.0-20180719180050-a680a1efc54d/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
@@ -208,6 +211,9 @@ golang.org/x/sys v0.0.0-20180326154331-13d03a9a82fb h1:w1eDrzbtlRsu1SyjnZZFUBVuh
 golang.org/x/sys v0.0.0-20180326154331-13d03a9a82fb/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/text v0.0.0-20180708171225-0605a8320ace h1:3mpprtjg+Ub12Q3O5M02xoGQjF0M93WOKTMkXzYE+f4=
 golang.org/x/text v0.0.0-20180708171225-0605a8320ace/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 h1:+DCIGbF/swA92ohVg0//6X2IVY3KZs6p9mix0ziNYJM=
 golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2/go.mod h1:tRJNPiyCQ0inRvYxbN9jk5I+vvW/OXSQhTDSoE431IQ=
 google.golang.org/api v0.0.0-20180818000503-e21acd801f91/go.mod h1:4mhQ8q/RsB7i+udVvVy5NUi08OU8ZlA0gRVgrF7VFY0=
 google.golang.org/appengine v0.0.0-20160118045125-6bde959377a9/go.mod h1:EbEs0AVv82hx2wNQdGPgUI5lhzA/G0D9YwlJXL52JkM=

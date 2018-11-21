@@ -52,7 +52,7 @@ require (
 	github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47
 	github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce
 	github.com/hashicorp/serf v0.0.0-20180530155958-984a73625de3
-	github.com/hashicorp/vault v0.0.0-20180724215049-b9adaf9c6959
+	github.com/hashicorp/vault v0.11.5
 	github.com/hashicorp/yamux v0.0.0-20151129044643-df949784da9e
 	github.com/hetznercloud/hcloud-go v0.0.0-20181016094819-eaf050e4f370
 	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
@@ -110,7 +110,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20160121061903-8a57ed94ffd4
 	golang.org/x/sync v0.0.0-20170317231601-5a06fca2c336
 	golang.org/x/sys v0.0.0-20180326154331-13d03a9a82fb
-	golang.org/x/text v0.0.0-20180708171225-0605a8320ace
+	golang.org/x/text v0.3.0
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
 	google.golang.org/api v0.0.0-20180818000503-e21acd801f91
 	google.golang.org/appengine v0.0.0-20160118045125-6bde959377a9

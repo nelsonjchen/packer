@@ -124,6 +124,10 @@ Linux server and have not enabled X11 forwarding (`ssh -X`).
 
     -&gt; The `whpx` accelerator is new and experimental as of
     [QEMU 2.12.0](https://wiki.qemu.org/ChangeLog/2.12#Host_support).
+    You may encounter issues unrelated to Packer when using it. The most popular
+    [distribution of QEMU for Windows](https://qemu.weilnetz.de/w64/) currently
+    does not compile support for WHPX and you may need to [compile QEMU with WHPX
+    enabled yourself](https://www.mail-archive.com/qemu-devel@nongnu.org/msg549344.html).
 
 -   `boot_command` (array of strings) - This is an array of commands to type
     when the virtual machine is first booted. The goal of these commands should
