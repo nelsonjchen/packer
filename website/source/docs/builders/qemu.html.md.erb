@@ -122,6 +122,9 @@ Linux server and have not enabled X11 forwarding (`ssh -X`).
     add [ "-global", "virtio-pci.disable-modern=on" ] to `qemuargs` depending on the
     guest operating system.
 
+    -&gt; The `whpx` accelerator is new and experimental as of
+    [QEMU 2.12.0](https://wiki.qemu.org/ChangeLog/2.12#Host_support).
+
 -   `boot_command` (array of strings) - This is an array of commands to type
     when the virtual machine is first booted. The goal of these commands should
     be to type just enough to initialize the operating system installer. Special
@@ -145,7 +148,7 @@ Linux server and have not enabled X11 forwarding (`ssh -X`).
 -   `disk_discard` (string) - The discard mode to use for disk. Allowed values
     include any of `unmap` or `ignore`. By default, this is set to `ignore`.
 
--   `disk_detect_zeroes` (string) - The detect-zeroes mode to use for disk. 
+-   `disk_detect_zeroes` (string) - The detect-zeroes mode to use for disk.
     Allowed values include any of `unmap`, `on` or `off`. Defaults to `off`.
 
 -   `disk_image` (boolean) - Packer defaults to building from an ISO file, this
